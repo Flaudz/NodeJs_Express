@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_express",
+  "version": "1.0.0",
+  "description": "First Time Using Express!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flaudz/NodeJs_Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flaudz/NodeJs_Express/issues"
+  },
+  "homepage": "https://github.com/Flaudz/NodeJs_Express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
