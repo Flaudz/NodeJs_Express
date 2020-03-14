@@ -5,11 +5,11 @@ const app = express();
 app.listen(5050);
 
 app.get("/", (req, res) => {
-	res.send("This is the homepage");
+	res.sendFile(__dirname + "/index.html");
 });
 
 app.get("/contact", (req, res) => {
-	res.send("This is the contact page");
+	res.sendFile(`${__dirname}/contact.html`);
 });
 
 app.get("/profile/:id", (req, res) => {
